@@ -26,6 +26,7 @@ import org.apereo.cas.logout.config.CasCoreLogoutConfiguration;
 import org.apereo.cas.services.RegisteredServiceTestUtils;
 import org.apereo.cas.services.ServicesManager;
 import org.apereo.cas.util.cipher.NoOpCipherExecutor;
+import org.apereo.cas.validation.CasViewConstants;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

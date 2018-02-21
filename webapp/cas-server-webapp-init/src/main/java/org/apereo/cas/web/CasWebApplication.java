@@ -46,7 +46,7 @@ import lombok.NoArgsConstructor;
 public class CasWebApplication {
 
     /**
-     * Main entry point of the CAS web application.
+     * org.apereo.cas.validation.Main entry point of the CAS web application.
      *
      * @param args the args
      */

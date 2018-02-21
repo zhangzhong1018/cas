@@ -1,0 +1,18 @@
+<cas:serviceResponse xmlns:cas="http://www.yale.edu/tp/cas">
+    <cas:authenticationSuccess>
+        <cas:user>casuser</cas:user>
+        <cas:attributes>
+            <cas:authenticationDate>2018-02-21T14:06:33.351+03:30</cas:authenticationDate>
+            <cas:longTermAuthenticationRequestTokenUsed>true</cas:longTermAuthenticationRequestTokenUsed>
+            <cas:isFromNewLogin>true</cas:isFromNewLogin>
+            <cas:misagh>Value10</cas:misagh>
+            <cas:value>Value11</cas:value>
+            <cas:value>Value21</cas:value>
+            
+        </cas:attributes>
+        <cas:proxyGrantingTicket>PGT-IOU-Testing</cas:proxyGrantingTicket>
+        <cas:proxies>
+            <cas:proxy>This-Proxy</cas:proxy>
+        </cas:proxies>
+    </cas:authenticationSuccess>
+</cas:serviceResponse>

@@ -1,7 +1,7 @@
 package org.apereo.cas.web.view;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apereo.cas.CasViewConstants;
+import org.apereo.cas.validation.CasViewConstants;
 import org.apereo.cas.authentication.AuthenticationServiceSelectionPlan;
 import org.apereo.cas.authentication.ProtocolAttributeEncoder;
 import org.apereo.cas.services.ServicesManager;
@@ -23,8 +23,6 @@ import java.util.Map;
  */
 @Slf4j
 public class Cas20ResponseView extends AbstractDelegatingCasView {
-
-
     /**
      * The Service selection strategy.
      */

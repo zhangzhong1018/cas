@@ -3,7 +3,7 @@ package org.apereo.cas.authentication.support;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
-import org.apereo.cas.CasViewConstants;
+import org.apereo.cas.validation.CasViewConstants;
 import org.apereo.cas.CipherExecutor;
 import org.apereo.cas.services.RegisteredService;
 import org.apereo.cas.services.RegisteredServiceCipherExecutor;

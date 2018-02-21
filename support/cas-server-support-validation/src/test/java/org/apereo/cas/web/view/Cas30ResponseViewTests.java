@@ -3,7 +3,7 @@ package org.apereo.cas.web.view;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.apereo.cas.CasProtocolConstants;
-import org.apereo.cas.CasViewConstants;
+import org.apereo.cas.validation.CasViewConstants;
 import org.apereo.cas.authentication.CoreAuthenticationTestUtils;
 import org.apereo.cas.authentication.DefaultAuthenticationAttributeReleasePolicy;
 import org.apereo.cas.authentication.DefaultAuthenticationContextValidator;

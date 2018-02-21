@@ -176,7 +176,7 @@ public class DefaultRegisteredServiceAccessStrategyTests {
         authz.setRejectedAttributes(rejectedAttributes);
 
         final Map<String, Object> pAttrs = getPrincipalAttributes();
-        pAttrs.put("address", "1234 Main Street");
+        pAttrs.put("address", "1234 org.apereo.cas.validation.Main Street");
         assertTrue(authz.doPrincipalAttributesAllowServiceAccess(TEST, pAttrs));
     }
 
@@ -189,7 +189,7 @@ public class DefaultRegisteredServiceAccessStrategyTests {
         authz.setRejectedAttributes(rejectedAttributes);
 
         final Map<String, Object> pAttrs = getPrincipalAttributes();
-        pAttrs.put("address", "1234 Main Street");
+        pAttrs.put("address", "1234 org.apereo.cas.validation.Main Street");
         assertTrue(authz.doPrincipalAttributesAllowServiceAccess(TEST, pAttrs));
     }
 

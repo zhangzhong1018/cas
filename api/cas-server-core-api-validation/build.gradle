@@ -1,6 +1,11 @@
-
 description = "Apereo CAS Core Validation APIs"
+
 dependencies {
     api project(":api:cas-server-core-api-authentication")
 }
 
+task generateComponentsBasedOnCasSchema(type: Exec) {
+    commandLine  "xjc", "-d", "src/main/java", "-p", "org.apereo.cas.validation.xsd.gen", "src/main/resources/cas-protocol.xsd", "-npa", "-no-header"
+}
+
+compileJava.dependsOn(generateComponentsBasedOnCasSchema)
